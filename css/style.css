@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+}
+.box {
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: lightskyblue;
+}
+
+
+.col-1{
+    flex-basis: 0;
+    max-width: 100%;
+    flex-grow: 1;
+}
+
+
+/*flex-basis: calc((100% / 12) * 12);
+max-width: calc((100% / 12) * 12);
