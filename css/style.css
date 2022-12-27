@@ -19,6 +19,8 @@
     border: 1px solid white;
     background-color: lightskyblue;
 }
+
+/* STYLE COL */
 .col-1{
     flex-basis: 0;
     max-width: 100%;
@@ -68,14 +70,45 @@
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
 }
+
+/* STYLE NESTED*/
 .box>.row>[class*="col"]>.box {
     background-color: greenyellow;
     margin: 10px 2px;
     border: 0;
 }
 
+/* STYLE OFFSET*/
 
-
-
-/*flex-basis: calc((100% / 12) * 12);
-max-width: calc((100% / 12) * 12);
+.col-off-1{
+    margin-left: calc((100% / 12) * 1);
+}
+.col-off-2{
+    margin-left: calc((100% / 12) * 2);
+}
+.col-off-3{
+    margin-left: calc((100% / 12) * 3);
+}
+.col-off-4{
+    margin-left: calc((100% / 12) * 4);
+}
+.col-off-5{
+    margin-left: calc((100% / 12) * 5);
+}
+.col-off-6{
+    margin-left: calc((100% / 12) * 6);
+}
+.col-off-7{
+    margin-left: calc((100% / 12) * 7);
+}.col-off-8{
+    margin-left: calc((100% / 12) * 8);
+}
+.col-off-9{
+    margin-left: calc((100% / 12) * 9);
+}
+.col-off-10{
+    margin-left: calc((100% / 12) * 10);
+}
+.col-off-11{
+    margin-left: calc((100% / 12) * 11);
+}
